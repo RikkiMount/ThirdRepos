@@ -35,6 +35,7 @@
             this.chkDiscount = new System.Windows.Forms.CheckBox();
             this.radBalcony = new System.Windows.Forms.RadioButton();
             this.radGeneral = new System.Windows.Forms.RadioButton();
+            this.radBack = new System.Windows.Forms.RadioButton();
             this.radBox = new System.Windows.Forms.RadioButton();
             this.grpSection = new System.Windows.Forms.GroupBox();
             this.cmdCalculate = new System.Windows.Forms.Button();
@@ -106,13 +107,25 @@
             this.radGeneral.Text = "General";
             this.radGeneral.UseVisualStyleBackColor = true;
             // 
+            // backStall
+            // 
+            this.radBack.AutoSize = true;
+            this.radBack.Checked = true;
+            this.radBack.Location = new System.Drawing.Point(26, 55);
+            this.radBack.Name = "radBack";
+            this.radBack.Size = new System.Drawing.Size(62, 17);
+            this.radBack.TabIndex = 8;
+            this.radBack.TabStop = true;
+            this.radBack.Text = "Back Stall";
+            this.radBack.UseVisualStyleBackColor = true;
+            // 
             // radBox
             // 
             this.radBox.AutoSize = true;
-            this.radBox.Location = new System.Drawing.Point(26, 63);
+            this.radBox.Location = new System.Drawing.Point(26, 80);
             this.radBox.Name = "radBox";
             this.radBox.Size = new System.Drawing.Size(73, 17);
-            this.radBox.TabIndex = 8;
+            this.radBox.TabIndex = 9;
             this.radBox.Text = "Box Seats";
             this.radBox.UseVisualStyleBackColor = true;
             // 
@@ -124,7 +137,7 @@
             this.grpSection.Location = new System.Drawing.Point(52, 141);
             this.grpSection.Name = "grpSection";
             this.grpSection.Size = new System.Drawing.Size(139, 111);
-            this.grpSection.TabIndex = 9;
+            this.grpSection.TabIndex = 10;
             this.grpSection.TabStop = false;
             this.grpSection.Text = "Section";
             // 
@@ -133,7 +146,7 @@
             this.cmdCalculate.Location = new System.Drawing.Point(294, 268);
             this.cmdCalculate.Name = "cmdCalculate";
             this.cmdCalculate.Size = new System.Drawing.Size(108, 35);
-            this.cmdCalculate.TabIndex = 10;
+            this.cmdCalculate.TabIndex = 11;
             this.cmdCalculate.Text = "Calculate";
             this.cmdCalculate.UseVisualStyleBackColor = true;
             this.cmdCalculate.Click += new System.EventHandler(this.cmdCalculate_Click);
@@ -169,6 +182,7 @@
         private System.Windows.Forms.CheckBox chkDiscount;
         private System.Windows.Forms.RadioButton radBalcony;
         private System.Windows.Forms.RadioButton radGeneral;
+        private System.Windows.Forms.RadioButton radBack;
         private System.Windows.Forms.RadioButton radBox;
         private System.Windows.Forms.GroupBox grpSection;
         private System.Windows.Forms.Button cmdCalculate;
