@@ -166,6 +166,7 @@
         private System.Windows.Forms.TextBox txtQuantity;
         private System.Windows.Forms.Label lblAmountDue;
         private System.Windows.Forms.Label lblAmount;
+        private System.Windows.Forms.Label newLabel;
         private System.Windows.Forms.CheckBox chkDiscount;
         private System.Windows.Forms.RadioButton radBalcony;
         private System.Windows.Forms.RadioButton radGeneral;
